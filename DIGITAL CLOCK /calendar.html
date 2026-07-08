@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Current Date</title>
+</head>
+<body>
+
+    <h2>Current Date Information</h2>
+
+    <p id="result"></p>
+
+    <script>
+        var today = new Date();
+
+        document.getElementById("result").innerHTML =
+            "Date: " + today.getDate() + "<br>" +
+            "Month: " + (today.getMonth() + 1) + "<br>" +
+            "Year: " + today.getFullYear() + "<br>"
+    </script>
+
+</body>
+</html>
